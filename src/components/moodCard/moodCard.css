@@ -1,0 +1,118 @@
+.mood-card {
+  width: 42%;
+  min-height: 300px;
+  background-color: rgb(233, 248, 241);
+  /* background-color: #5e687a; */
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 10px;
+  position: relative;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 10px;
+  color: #000;
+  border: solid 5px rgb(107, 157, 145);
+  font-family: lato;
+}
+
+.mood-card h2 {
+  margin-bottom: 20px;
+}
+
+.mood-card span {
+  font-weight: bold;
+}
+
+.mood-card p {
+  word-break: break-all;
+  white-space: normal;
+}
+
+p.entry-box-display {
+  word-wrap: break-all;
+  text-align: left;
+  margin-bottom: 36px;
+}
+
+.j-label {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.btn-wrap {
+  position: absolute;
+  bottom: 11px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.btn-wrap button {
+  border: none;
+  height: 32px;
+  padding: 0 16px;
+}
+
+/* @media screen and (max-width: 740px) {
+} */
+
+#bookmark {
+  font-size: 32px;
+  color: #ffde01;
+  /* background-color: #ffde01; */
+  position: absolute;
+  top: 0px;
+  right: 60px;
+  cursor: pointer;
+}
+
+#bookmarked {
+  font-size: 32px;
+  color: #ffde01;
+  background-color: #ffde01;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  right: 60px;
+  cursor: pointer;
+}
+
+#bookmarked {
+  width: 24.5px;
+  height: 32px;
+  background-color: #ffde01;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  right: 60px;
+  cursor: pointer;
+  clip-path: polygon(50% 15%, 100% 0, 100% 100%, 0 100%, 0 0);
+  rotate: 180deg;
+}
+
+#delete-icon {
+  font-size: 32px;
+  color: #ba2328;
+  position: absolute;
+  top: -4px;
+  cursor: pointer;
+  right: 0px;
+}
+
+.hide-button {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .mood-card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mood-card {
+    width: 95%;
+  }
+}

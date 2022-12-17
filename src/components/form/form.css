@@ -1,0 +1,80 @@
+.form-wrapper {
+  width: 42%;
+  min-height: 500px;
+  background-color: rgb(107, 157, 145);
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+  position: relative;
+}
+
+.form-wrapper h1 {
+  width: 95%;
+  text-align: left;
+  margin-top: 36px;
+  font-family: bell;
+}
+.form-wrapper span {
+  font-family: lato;
+  width: 95%;
+  text-align: left;
+  font-size: 24px;
+}
+
+.form-wrapper select {
+  margin: 16px;
+  width: 95%;
+  font-family: lato;
+}
+
+.form-wrapper input {
+  margin: 16px;
+  width: 95%;
+  font-family: lato;
+}
+
+.submit {
+  max-width: 200px;
+  height: 42px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: none;
+  margin: 20px;
+  background-color: white;
+  font-family: lato;
+}
+
+.entry-box {
+  width: 95%;
+  min-height: 300px;
+  padding-left: 10px;
+  word-wrap: wrap;
+  margin-bottom: 80px;
+  font-family: lato;
+}
+
+label {
+  width: 95%;
+  text-align: left;
+  margin-bottom: -14px;
+  font-family: lato;
+}
+
+.entry-label {
+  margin-bottom: 2px;
+  font-family: lato;
+}
+
+@media screen and (max-width: 850px) {
+  .form-wrapper {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-wrapper {
+    width: 95%;
+  }
+}

@@ -1,0 +1,6 @@
+red - #DB1A21
+orange - #FF7F27
+pale - #D7DB8B
+green - #22B14C
+yellow1 - #FFF200
+yellow2 - #FFDE01
